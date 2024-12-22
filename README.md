@@ -1,4 +1,4 @@
-# Ahmed's Portfolio 🚀
+# Ahmad's Portfolio 🚀
 
 Welcome to my personal portfolio repository! This portfolio showcases my journey as a Data Scientist, highlighting my projects, articles, and achievements. With a passion for turning data into actionable insights, I strive to combine technical expertise with creative problem-solving to tackle real-world challenges.
 

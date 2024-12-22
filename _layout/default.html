@@ -3,8 +3,11 @@
   <head>
     <meta charset="UTF-8">
 
-    {% seo %} <!-- Inject SEO and Open Graph metadata dynamically -->
-
+    {% seo %}
+    <meta property="og:image" content="{{ site.github.owner_gravatar_url }}">
+    <meta property="og:title" content="{{ site.github.project_title }}">
+    <meta property="og:description" content="{{ site.github.project_tagline }}">
+    <meta property="og:url" content="{{ site.github.repository_url }}">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
     <meta property="og:image" content="https://ahmadalharbi21.github.io/portfolio/images/image.png">

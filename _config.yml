@@ -2,5 +2,6 @@ layout: default
 title: "Ahmed's Data Science Portfolio 🚀"
 description: "Explore my journey as a Data Scientist, showcasing projects in Data Science and Machine Learning."
 image: portfolio/images/image.png
+theme: jekyll-theme-cayman
 
 

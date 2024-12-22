@@ -1,9 +1,7 @@
 plugins:
   - jekyll-seo-tag
-layout: default
 title: "Ahmed's Data Science Portfolio 🚀"
 description: "Explore my journey as a Data Scientist, showcasing projects in Data Science and Machine Learning."
-image: images/image.png
+url: "https://ahmadalharbi21.github.io/portfolio"
+image: /images/image.png
 theme: jekyll-theme-cayman
-
-

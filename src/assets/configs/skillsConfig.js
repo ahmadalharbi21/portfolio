@@ -13,10 +13,17 @@ import {
     SiSnowflake,
     SiApacheairflow,
     SiApachekafka,
-    SiPowerbi
+    SiPowerbi,
+    SiFlask,
+    SiOpencv,
+    SiPandas,
+    SiNumpy,
+    SiTableau
 } from "react-icons/si";
-import {GrMysql} from "react-icons/gr";
-import {FaGitAlt} from "react-icons/fa";
+import { GrMysql } from "react-icons/gr";
+import { FaGitAlt } from "react-icons/fa";
+import { TbBrain } from "react-icons/tb";
+import { MdDeveloperMode } from "react-icons/md";
 
 import React from "react";
 
@@ -35,12 +42,6 @@ const skillsConfig = {
             text: "Postgres"
         },
         {
-            id: "skills-2",
-            className: "skill-icon",
-            icon: <SiMicrosoftsqlserver size={50}/>,
-            text: "MSSQL"
-        },
-        {
             id: "skills-3",
             className: "skill-icon",
             icon: <SiDocker size={50}/>,
@@ -57,38 +58,32 @@ const skillsConfig = {
             className: "skill-icon",
             icon: <FaGitAlt size={50}/>,
             text: "Git"
+        },
+        {
+            id: "skills-6",
+            className: "skill-icon",
+            icon: <SiFlask size={50}/>,
+            text: "Flask"
+        },
+        {
+            id: "skills-7",
+            className: "skill-icon",
+            icon: <SiOpencv size={50}/>,
+            text: "OpenCV"
         }
     ],
     complementarySkills: [
         {
-            id: "skills-5",
+            id: "skills-8",
             className: "skill-icon",
             icon: <GrMysql size={50}/>,
             text: "MySQL"
         },
         {
-            id: "skills-6",
-            className: "skill-icon",
-            icon: <SiRedis size={50}/>,
-            text: "Redis"
-        },
-        {
-            id: "skills-7",
+            id: "skills-9",
             className: "skill-icon",
             icon: <SiWindowsterminal size={50}/>,
             text: "Bash"
-        },
-        {
-            id: "skills-8",
-            className: "skill-icon",
-            icon: <SiSnowflake size={50}/>,
-            text: "Snowflake"
-        },
-        {
-            id: "skills-9",
-            className: "skill-icon",
-            icon: <SiApacheairflow size={50}/>,
-            text: "Airflow"
         },
         {
             id: "skills-10",
@@ -99,36 +94,46 @@ const skillsConfig = {
         {
             id: "skills-11",
             className: "skill-icon",
-            icon: <SiCss3 size={50}/>,
-            text: "CSS 3"
-        },
-        {
-            id: "skills-12",
-            className: "skill-icon",
             icon: <SiHtml5 size={50}/>,
             text: "HTML 5"
         },
         {
-            id: "skills-13",
-            className: "skill-icon",
-            icon: <SiReact size={50}/>,
-            text: "React"
-        }
-        ,
-        {
-            id: "skills-14",
-            className: "skill-icon",
-            icon: <SiApachekafka size={50}/>,
-            text: "Kafka"
-        }
-        ,
-        {
-            id: "skills-15",
+            id: "skills-12",
             className: "skill-icon",
             icon: <SiPowerbi size={50}/>,
             text: "Power BI"
+        },
+        {
+            id: "skills-13",
+            className: "skill-icon",
+            icon: <SiTableau size={50}/>,
+            text: "Tableau"
+        },
+        {
+            id: "skills-14",
+            className: "skill-icon",
+            icon: <SiPandas size={50}/>,
+            text: "Pandas"
+        },
+        {
+            id: "skills-15",
+            className: "skill-icon",
+            icon: <SiNumpy size={50}/>,
+            text: "NumPy"
+        },
+        {
+            id: "skills-16",
+            className: "skill-icon",
+            icon: <MdDeveloperMode size={50}/>,
+            text: "Retool / Appsmith"
+        },
+        {
+            id: "skills-17",
+            className: "skill-icon",
+            icon: <TbBrain size={50}/>,
+            text: "Machine Learning"
         }
     ]
 }
 
-export default skillsConfig
+export default skillsConfig;

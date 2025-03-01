@@ -1,81 +1,60 @@
 import React from 'react'
 import {BsClipboardData} from "react-icons/bs";
 import {DiCodeigniter} from "react-icons/di";
-import {GiCommercialAirplane} from "react-icons/gi";
-import {FaMobileAlt} from "react-icons/fa";
-import { BiRocket } from "react-icons/bi";
+import {GiArtificialIntelligence} from "react-icons/gi";
+import {FaDatabase} from "react-icons/fa";
+import { BiBrain } from "react-icons/bi";
 
 const homeConfig = {
 
     greeting:
         <h1 className="heading">
-            Hi! I'm <strong className="main-name"> Rodrigo Arenas</strong>
+            Hi! I'm <strong className="main-name"> Ahmad Alharbi</strong>
         </h1>,
     titles: [
         "A Data Scientist",
         "A Machine Learning Specialist",
-        "An Open Source Contributor",
-        "A Backend Developer",
-        "A Colombian"
+        "An NLP Researcher",
+        "A Data Analyst",
     ],
     about: {
-        start: "I've been working for over nine years on data science projects. " +
-            "I'm excited by learning new things, contributing to the data science community," +
-            " and spreading the word of data!",
-        exit: "I'm fluent at Python, SQL databases, BI tools, and more, " +
-            "with a deep interest in machine learning."
+        start: "I'm a recent graduate in Data Science with experience in NLP, time series analysis, and data processing. " +
+            "Capable of gathering data, developing AI solutions, and deploying predictive models that yield actionable insights.",
+        exit: "I'm proficient in Python, SQL, web scraping, deep learning, and GIS tools, with a passion for optimizing processes " +
+            "and creating meaningful impact through data-driven approaches."
     },
-    workTimeline: [
-        {
-            id: "work-4",
-            title: "Sr ML Engineer",
-            company: "EPAM",
-            description: "Working to build scalable ML solutions, LLM's, and RAG architectures.",
-            date: "2023-Present",
-            icon: <BiRocket/>,
-            tags: ["ml", "mlops", "python", "azure", "llm", "automl"]
-        },
-        {
-            id: "work-3",
-            title: "Sr Data Scientist",
-            company: "Globant",
-            description: "Build AutoML models and make them available to non-technical " +
-                "users from a graphical interface.",
-            date: "2021-2023",
-            icon: <DiCodeigniter/>,
-            tags: ["ml", "automl", "python", "docker", "redshift", "superset"]
-        },
-        {
+    workTimeline: [ 
+               {
             id: "work-2",
-            title: "BI Manager",
-            company: "Rappi",
-            description: "Leading a team of analysts and data scientists to execute different projects, " +
-                "including the construction of ETLs, data lakes, data warehouses, and machine learning models.",
-            date: "2019-2021",
-            icon: <FaMobileAlt/>,
-            tags: ["ml", "airflow", "python", "docker", "snowflake", "postgres", "azure"]
+            title: "Data Science & Machine Learning Bootcamp",
+            company: "Tuwaiq Academy",
+            description: "Completed an intensive program covering machine learning, deep learning, and practical data science applications.",
+            date: "01/2025 - 03/2025",
+            icon: <BiBrain/>,
+            tags: ["ml", "data science", "python", "deep learning"]
         },
+
         {
             id: "work-1",
-            title: "CRM Analytics Coordinator",
-            company: "Avianca",
-            description: "Tech leader of a BI, Data Science and DBA team. " +
-                "Build forecast models, data warehouse and Power BI dashboards.",
-            date: "2018-2019",
-            icon: <GiCommercialAirplane/>,
-            tags: ["ml", "mssql", "python", "docker", "pbi", "azure"]
+            title: "Data Science CO-OP Trainee",
+            company: "Aramco, Advanced Research Center",
+            description: "Developed real-time data insights using motion detection algorithms with OpenCV. Built a chatbot for EXPEC ARC employees using OpenAI API and explored Retrieval-Augmented Generation (RAG).",
+            date: "09/2024 - 10/2024",
+            icon: <GiArtificialIntelligence/>,
+            tags: ["python", "opencv", "nlp", "rag", "openai", "time series"],
+            backgroundImage: "vniversity_of_jeddah_banner.png"
         },
-        {
+                {
             id: "work-0",
-            title: "BI Analyst",
-            company: "Onelink BPO",
-            description: "Build interactive dashboards, ETLs and SQL queries to show the company KPIs.",
-            date: "2016-2018",
-            icon: <BsClipboardData/>,
-            tags: ["python", "mssql", "pbi", "excel"]
-        }
+            title: "Bachelor's in Data Science",
+            company: "University of Jeddah",
+            description: "Graduated with Second Honors. Focused on machine learning, deep learning, and GIS applications in data science.",
+            date: "01/2020 - 12/2024",
+            icon: <FaDatabase/>,
+            tags: ["data science", "machine learning", "python", "sql"]
+        },
+
     ]
 }
 
-
-export default homeConfig
+export default homeConfig;

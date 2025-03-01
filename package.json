@@ -5,7 +5,7 @@
   "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
-    ]}
+    }
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",

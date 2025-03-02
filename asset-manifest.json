@@ -1,17 +1,22 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f0136789.css",
-    "main.js": "/portfolio/static/js/main.19330ca2.js",
-    "static/media/sklearn_genetic_opt.png": "/portfolio/static/media/sklearn_genetic_opt.15b892adf6368a965618.png",
-    "static/media/kafkaml.png": "/portfolio/static/media/kafkaml.5ee10c15934deddbebe6.png",
+    "main.js": "/portfolio/static/js/main.d191b6a3.js",
+    "static/media/wells.jpg": "/portfolio/static/media/wells.0acd1eb25a2d81474f62.jpg",
+    "static/media/chatbot.jpg": "/portfolio/static/media/chatbot.b67cff8747e75686c34b.jpg",
     "static/media/fastapi_sklearn.png": "/portfolio/static/media/fastapi_sklearn.0bfaec4cff582eb26751.png",
-    "static/media/portfolio.png": "/portfolio/static/media/portfolio.565c9c29306627d2173d.png",
+    "static/media/poetry_rec.png": "/portfolio/static/media/poetry_rec.cbbbca70a09eda8da8c0.png",
+    "static/media/price_pred.jpg": "/portfolio/static/media/price_pred.0e0bbf333ae4a564ee20.jpg",
+    "static/media/photo-1513775192371-1b9d33760c3f.avif": "/portfolio/static/media/photo-1513775192371-1b9d33760c3f.fcbe905d616cc957e41e.avif",
+    "static/media/led_display.avif": "/portfolio/static/media/led_display.c167d633a66d02f2a4fe.avif",
+    "static/media/gemini_extension.jpg": "/portfolio/static/media/gemini_extension.ab31a038ed1ec87f90c8.jpg",
+    "static/media/ble_scanner.png": "/portfolio/static/media/ble_scanner.21a83b1ce6793c7a69fc.png",
     "index.html": "/portfolio/index.html",
     "main.f0136789.css.map": "/portfolio/static/css/main.f0136789.css.map",
-    "main.19330ca2.js.map": "/portfolio/static/js/main.19330ca2.js.map"
+    "main.d191b6a3.js.map": "/portfolio/static/js/main.d191b6a3.js.map"
   },
   "entrypoints": [
     "static/css/main.f0136789.css",
-    "static/js/main.19330ca2.js"
+    "static/js/main.d191b6a3.js"
   ]
 }

@@ -1,11 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://ahmadalharbi21.github.io/portfolio",
-  "scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-    }
+  "homepage": "https://rodrigo-arenas.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
